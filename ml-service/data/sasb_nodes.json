@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "SASB-EM-GHG-1",
+      "framework": "SASB",
+      "code": "EM-GHG-1",
+      "label": "Gross global Scope 1 GHG emissions",
+      "description": "Gross global Scope 1 greenhouse gas emissions in metric tons of CO2 equivalent. Direct combustion stationary mobile process fugitive.",
+      "keywords": ["scope 1", "direct emissions", "gross emissions", "CO2 equivalent", "metric tons CO2", "greenhouse gas", "direct ghg"],
+      "units": ["tCO2e", "CO2e", "MtCO2e", "ktCO2e", "metric tons CO2e"],
+      "category": "emissions"
+    },
+    {
+      "id": "SASB-EM-GHG-2",
+      "framework": "SASB",
+      "code": "EM-GHG-2",
+      "label": "Scope 2 GHG emissions",
+      "description": "Gross global Scope 2 greenhouse gas emissions from purchased electricity steam heat cooling. Location-based and market-based.",
+      "keywords": ["scope 2", "purchased electricity", "location-based", "market-based", "indirect emissions", "electricity emissions", "scope 2 ghg"],
+      "units": ["tCO2e", "CO2e", "MtCO2e", "ktCO2e", "metric tons CO2e"],
+      "category": "emissions"
+    },
+    {
+      "id": "SASB-EN-USE",
+      "framework": "SASB",
+      "code": "EN-USE",
+      "label": "Total energy consumed",
+      "description": "Total energy consumed as sum of fuel consumption and purchased energy. Renewable and non-renewable sources. Gigajoules terajoules.",
+      "keywords": ["total energy", "energy consumed", "energy consumption", "fuel consumption", "purchased energy", "total energy use", "gigajoules"],
+      "units": ["GJ", "TJ", "PJ", "kWh", "MWh", "GWh"],
+      "category": "energy"
+    },
+    {
+      "id": "SASB-EN-REN",
+      "framework": "SASB",
+      "code": "EN-REN",
+      "label": "Percentage of energy from renewable sources",
+      "description": "Percentage of total energy consumption from renewable sources. Solar wind hydro geothermal biomass. Renewable energy percentage.",
+      "keywords": ["renewable", "renewable energy", "percentage renewable", "solar", "wind", "hydro", "geothermal", "biomass", "clean energy", "green energy"],
+      "units": ["%", "percentage", "GJ", "MWh", "GWh"],
+      "category": "energy"
+    },
+    {
+      "id": "SASB-WT-USE",
+      "framework": "SASB",
+      "code": "WT-USE",
+      "label": "Total water withdrawn",
+      "description": "Total water withdrawn from all sources. Municipal water groundwater surface water rainwater. Freshwater and other water.",
+      "keywords": ["water withdrawn", "total water withdrawn", "water intake", "freshwater", "water sourced", "water abstracted", "water use"],
+      "units": ["ML", "m3", "m³", "megalitres", "cubic metres", "GL", "kL"],
+      "category": "water"
+    },
+    {
+      "id": "SASB-WT-STR",
+      "framework": "SASB",
+      "code": "WT-STR",
+      "label": "Water withdrawn in high water stress areas",
+      "description": "Total water withdrawn from facilities in locations with High or Extremely High Baseline Water Stress per WRI Aqueduct tool.",
+      "keywords": ["water stress", "high stress", "extremely high", "WRI Aqueduct", "water risk", "water scarcity", "stressed areas", "water scarce"],
+      "units": ["ML", "m3", "m³", "megalitres", "%"],
+      "category": "water"
+    },
+    {
+      "id": "SASB-WST-HAZ",
+      "framework": "SASB",
+      "code": "WST-HAZ",
+      "label": "Amount of hazardous waste generated",
+      "description": "Total weight of hazardous waste generated. Regulated waste manifest tracked hazardous materials.",
+      "keywords": ["hazardous waste", "regulated waste", "manifest", "hazardous materials", "toxic waste", "dangerous waste"],
+      "units": ["tonnes", "metric tons", "kg", "t"],
+      "category": "waste"
+    },
+    {
+      "id": "SASB-AIR-1",
+      "framework": "SASB",
+      "code": "AIR-1",
+      "label": "Air quality emissions (NOx, SOx, particulates)",
+      "description": "Air emissions including nitrogen oxides NOx sulfur oxides SOx particulate matter PM2.5 PM10 volatile organic compounds. Criteria pollutants air quality.",
+      "keywords": ["NOx", "SOx", "air emissions", "particulate", "PM2.5", "PM10", "air quality", "criteria pollutants", "nitrogen oxide", "sulfur oxide", "VOC"],
+      "units": ["tonnes", "metric tons", "kg"],
+      "category": "emissions"
+    }
+  ]
+}

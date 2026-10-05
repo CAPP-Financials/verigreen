@@ -1,0 +1,12 @@
+[
+  { "name": "SGS", "framework_scope": ["gri", "sasb"] },
+  { "name": "Bureau Veritas", "framework_scope": ["gri", "sasb"] },
+  { "name": "DNV", "framework_scope": ["gri", "sasb"] },
+  { "name": "TÜV", "framework_scope": ["gri", "sasb"] },
+  { "name": "KPMG", "framework_scope": ["gri", "sasb"] },
+  { "name": "PwC", "framework_scope": ["gri", "sasb"] },
+  { "name": "Deloitte", "framework_scope": ["gri", "sasb"] },
+  { "name": "EY", "framework_scope": ["gri", "sasb"] },
+  { "name": "Lloyd's Register", "framework_scope": ["gri", "sasb"] },
+  { "name": "ERM", "framework_scope": ["gri", "sasb"] }
+]

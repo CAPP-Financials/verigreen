@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": "GRI-302-1",
+      "framework": "GRI",
+      "code": "302-1",
+      "label": "Energy consumption within the organization",
+      "description": "Total fuel consumption from non-renewable sources including coal oil natural gas. Total fuel consumption from renewable sources including solar wind biomass. Total energy consumption within the organization including electricity heating cooling steam.",
+      "keywords": ["energy", "consumption", "fuel", "electricity", "heating", "cooling", "steam", "renewable", "non-renewable", "total energy", "energy use", "energy consumed"],
+      "units": ["kWh", "MWh", "GWh", "TWh", "GJ", "TJ", "PJ", "MMBtu", "BTU", "joules", "gigajoules", "terajoules"],
+      "category": "energy"
+    },
+    {
+      "id": "GRI-302-2",
+      "framework": "GRI",
+      "code": "302-2",
+      "label": "Energy consumption outside of the organization",
+      "description": "Energy consumption outside the organization related to upstream and downstream activities. Value chain energy use. Sold products energy consumption. Transportation and distribution energy.",
+      "keywords": ["energy", "upstream", "downstream", "value chain", "sold products", "transportation", "distribution", "supply chain energy", "outside organization"],
+      "units": ["kWh", "MWh", "GWh", "GJ", "TJ", "PJ"],
+      "category": "energy"
+    },
+    {
+      "id": "GRI-302-3",
+      "framework": "GRI",
+      "code": "302-3",
+      "label": "Energy intensity",
+      "description": "Energy intensity ratio for the organization. Energy consumed per unit of output revenue product produced floor area employees.",
+      "keywords": ["energy intensity", "intensity", "per unit", "ratio", "normalized", "energy per", "specific energy", "energy efficiency ratio"],
+      "units": ["GJ/unit", "kWh/unit", "MWh/unit", "GJ per", "kWh per"],
+      "category": "energy"
+    },
+    {
+      "id": "GRI-302-4",
+      "framework": "GRI",
+      "code": "302-4",
+      "label": "Reduction of energy consumption",
+      "description": "Reductions in energy consumption achieved as a direct result of conservation and efficiency initiatives. Energy savings energy reduced energy avoided.",
+      "keywords": ["energy reduction", "energy savings", "conservation", "efficiency", "reduced energy", "energy avoided", "energy saved", "energy improvement"],
+      "units": ["kWh", "MWh", "GWh", "GJ", "TJ", "%"],
+      "category": "energy"
+    },
+    {
+      "id": "GRI-302-5",
+      "framework": "GRI",
+      "code": "302-5",
+      "label": "Reductions in energy requirements of products and services",
+      "description": "Reductions in energy requirements of sold products and services compared to previous year. Product energy design improvement.",
+      "keywords": ["product energy", "service energy", "design", "energy requirement", "energy demand", "product efficiency"],
+      "units": ["kWh", "MWh", "GJ", "%"],
+      "category": "energy"
+    },
+    {
+      "id": "GRI-303-1",
+      "framework": "GRI",
+      "code": "303-1",
+      "label": "Interactions with water as a shared resource",
+      "description": "Significant water-related impacts caused by water withdrawal discharge or consumption. Water-stressed areas. Shared water resources watershed.",
+      "keywords": ["water", "shared resource", "watershed", "water stress", "water-stressed", "water risk", "water impact", "water management", "freshwater", "groundwater", "surface water"],
+      "units": ["ML", "m3", "m³", "megalitres", "cubic metres", "cubic meters", "GL", "gigalitres"],
+      "category": "water"
+    },
+    {
+      "id": "GRI-303-2",
+      "framework": "GRI",
+      "code": "303-2",
+      "label": "Management of water discharge-related impacts",
+      "description": "Approach to managing water discharge. Effluent treatment. Destination of discharge water quality.",
+      "keywords": ["water discharge management", "effluent", "treatment", "wastewater", "discharge quality", "discharge management", "water treatment"],
+      "units": ["ML", "m3", "m³", "megalitres"],
+      "category": "water"
+    },
+    {
+      "id": "GRI-303-3",
+      "framework": "GRI",
+      "code": "303-3",
+      "label": "Water withdrawal",
+      "description": "Total water withdrawal by source. Groundwater surface water seawater produced water municipal water third-party water withdrawal.",
+      "keywords": ["water withdrawal", "withdrawal", "abstraction", "intake", "extracted", "water sourced", "groundwater withdrawal", "surface water withdrawal", "water taken"],
+      "units": ["ML", "m3", "m³", "megalitres", "cubic metres", "cubic meters", "GL", "kL", "kilolitres"],
+      "category": "water"
+    },
+    {
+      "id": "GRI-303-4",
+      "framework": "GRI",
+      "code": "303-4",
+      "label": "Water discharge",
+      "description": "Total water discharge by destination. Third parties freshwater other water. Substances of concern in discharge.",
+      "keywords": ["water discharge", "effluent", "released", "discharged", "water outlet", "wastewater discharge", "water returned"],
+      "units": ["ML", "m3", "m³", "megalitres", "GL"],
+      "category": "water"
+    },
+    {
+      "id": "GRI-303-5",
+      "framework": "GRI",
+      "code": "303-5",
+      "label": "Water consumption",
+      "description": "Total water consumption. Water evaporated incorporated into products water losses.",
+      "keywords": ["water consumption", "water consumed", "evaporated", "incorporated", "water use", "water footprint", "net water", "water depleted"],
+      "units": ["ML", "m3", "m³", "megalitres", "GL"],
+      "category": "water"
+    },
+    {
+      "id": "GRI-305-1",
+      "framework": "GRI",
+      "code": "305-1",
+      "label": "Direct (Scope 1) GHG emissions",
+      "description": "Gross direct Scope 1 greenhouse gas emissions in metric tons of CO2 equivalent. Direct combustion fugitive emissions process emissions.",
+      "keywords": ["scope 1", "direct emissions", "direct ghg", "scope 1 emissions", "combustion", "fugitive", "stationary combustion", "mobile combustion", "process emissions", "direct greenhouse gas"],
+      "units": ["tCO2e", "CO2e", "MtCO2e", "ktCO2e", "tCO2", "metric tons CO2", "tonnes CO2", "t CO2e", "million tonnes CO2"],
+      "category": "emissions"
+    },
+    {
+      "id": "GRI-305-2",
+      "framework": "GRI",
+      "code": "305-2",
+      "label": "Energy indirect (Scope 2) GHG emissions",
+      "description": "Gross location-based and market-based Scope 2 GHG emissions from purchased electricity heat steam cooling.",
+      "keywords": ["scope 2", "indirect emissions", "energy indirect", "purchased electricity", "purchased heat", "location-based", "market-based", "scope 2 emissions", "electricity emissions"],
+      "units": ["tCO2e", "CO2e", "MtCO2e", "ktCO2e", "tCO2", "metric tons CO2e"],
+      "category": "emissions"
+    },
+    {
+      "id": "GRI-305-3",
+      "framework": "GRI",
+      "code": "305-3",
+      "label": "Other indirect (Scope 3) GHG emissions",
+      "description": "Gross Scope 3 GHG emissions. Value chain upstream downstream categories business travel employee commuting purchased goods services.",
+      "keywords": ["scope 3", "other indirect", "value chain", "upstream", "downstream", "business travel", "employee commuting", "purchased goods", "supply chain emissions", "scope 3 emissions"],
+      "units": ["tCO2e", "CO2e", "MtCO2e", "ktCO2e", "tCO2"],
+      "category": "emissions"
+    },
+    {
+      "id": "GRI-305-4",
+      "framework": "GRI",
+      "code": "305-4",
+      "label": "GHG emissions intensity",
+      "description": "GHG emissions intensity ratio per unit of revenue per unit of product per employee. Carbon intensity emissions per.",
+      "keywords": ["ghg intensity", "emissions intensity", "carbon intensity", "per unit", "intensity ratio", "emissions per", "carbon per", "normalized emissions"],
+      "units": ["tCO2e/unit", "tCO2e per", "kgCO2e per", "gCO2e per"],
+      "category": "emissions"
+    },
+    {
+      "id": "GRI-305-5",
+      "framework": "GRI",
+      "code": "305-5",
+      "label": "Reduction of GHG emissions",
+      "description": "GHG emissions reduced as a direct result of reduction initiatives. Avoided emissions carbon offset abatement.",
+      "keywords": ["emissions reduction", "carbon reduction", "ghg reduction", "offset", "abatement", "avoided emissions", "carbon avoided", "emissions saved", "net reduction"],
+      "units": ["tCO2e", "CO2e", "MtCO2e", "%"],
+      "category": "emissions"
+    },
+    {
+      "id": "GRI-305-6",
+      "framework": "GRI",
+      "code": "305-6",
+      "label": "Emissions of ozone-depleting substances",
+      "description": "Production import export consumption destruction emissions of ozone-depleting substances CFC HCFC halon.",
+      "keywords": ["ozone depleting", "ODS", "CFC", "HCFC", "halon", "refrigerant", "ozone layer", "Montreal Protocol"],
+      "units": ["tonnes", "kg", "metric tons"],
+      "category": "emissions"
+    },
+    {
+      "id": "GRI-305-7",
+      "framework": "GRI",
+      "code": "305-7",
+      "label": "Nitrogen oxides, sulfur oxides, and other significant air emissions",
+      "description": "Significant air emissions NOx SOx persistent organic pollutants particulate matter PM2.5 PM10 volatile organic compounds VOC hazardous air pollutants.",
+      "keywords": ["NOx", "SOx", "nitrogen oxide", "sulfur oxide", "air emissions", "particulate matter", "PM2.5", "PM10", "VOC", "volatile organic", "air quality", "criteria pollutants"],
+      "units": ["tonnes", "metric tons", "kg", "t NOx", "t SOx"],
+      "category": "emissions"
+    },
+    {
+      "id": "GRI-306-1",
+      "framework": "GRI",
+      "code": "306-1",
+      "label": "Waste generation and significant waste-related impacts",
+      "description": "Significant actual and potential waste-related impacts. Waste streams generated material flows.",
+      "keywords": ["waste generation", "waste impact", "waste stream", "material flow", "waste management approach", "waste prevention"],
+      "units": ["tonnes", "metric tons", "kg"],
+      "category": "waste"
+    },
+    {
+      "id": "GRI-306-2",
+      "framework": "GRI",
+      "code": "306-2",
+      "label": "Management of significant waste-related impacts",
+      "description": "Approach to managing significant waste-related impacts. Waste prevention reduction reuse recycling recovery.",
+      "keywords": ["waste management", "waste treatment", "waste disposal management", "waste prevention", "waste recovery", "waste reduction approach"],
+      "units": ["tonnes", "metric tons", "%"],
+      "category": "waste"
+    },
+    {
+      "id": "GRI-306-3",
+      "framework": "GRI",
+      "code": "306-3",
+      "label": "Waste generated",
+      "description": "Total weight of waste generated. Hazardous waste non-hazardous waste by composition and treatment method.",
+      "keywords": ["waste generated", "total waste", "waste produced", "hazardous waste", "non-hazardous waste", "solid waste", "waste output", "tonnes waste"],
+      "units": ["tonnes", "metric tons", "kg", "t", "thousand tonnes", "million tonnes"],
+      "category": "waste"
+    },
+    {
+      "id": "GRI-306-4",
+      "framework": "GRI",
+      "code": "306-4",
+      "label": "Waste diverted from disposal",
+      "description": "Total weight of waste diverted from disposal. Recycling reuse composting recovery co-processing.",
+      "keywords": ["recycled", "reused", "recovered", "composted", "diverted", "waste recycling", "waste recovery", "co-processing", "circular", "material recovery"],
+      "units": ["tonnes", "metric tons", "%"],
+      "category": "waste"
+    },
+    {
+      "id": "GRI-306-5",
+      "framework": "GRI",
+      "code": "306-5",
+      "label": "Waste directed to disposal",
+      "description": "Total weight of waste directed to disposal. Landfill incineration open burning open dumping underground injection deep sea.",
+      "keywords": ["landfill", "incineration", "disposal", "directed to disposal", "sent to landfill", "waste disposal", "dumping"],
+      "units": ["tonnes", "metric tons", "%"],
+      "category": "waste"
+    }
+  ]
+}
